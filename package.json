@@ -1,0 +1,14 @@
+{
+  "name": "design-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "An evidence-first low-level design practice loop",
+  "engines": { "node": ">=22.16.0" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check public/app.js"
+  }
+}

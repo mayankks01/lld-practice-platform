@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Practice low-level design, examine your decisions, and improve one iteration at a time.">
+  <title>Design Lab · LLD practice</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <div id="app"><main class="loading">Opening your workspace…</main></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="guide">
+    <div class="dialog-top"><span class="eyebrow">A FIELD GUIDE</span><button id="close-guide" class="icon-button" aria-label="Close guide">×</button></div>
+    <h2>Make your thinking visible.</h2>
+    <p>You do not need a perfect UML diagram or runnable code. You need enough detail for someone to follow a decision through your objects.</p>
+    <ol class="guide-list">
+      <li><strong>Set the boundaries.</strong><br>State assumptions and what your design leaves out.</li>
+      <li><strong>Assign the decisions.</strong><br>Name objects, their responsibilities, and how they collaborate.</li>
+      <li><strong>Follow the behaviour.</strong><br>Walk through a success and a failure, including state changes.</li>
+      <li><strong>Explain the compromise.</strong><br>Describe an alternative and a test that could challenge your design.</li>
+    </ol>
+    <div class="notice">Feedback is a review checklist, not a grade. Text checks locate phrases; they cannot establish that your design is correct. Different designs can be equally valid.</div>
+  </dialog>
+</body>
+</html>
